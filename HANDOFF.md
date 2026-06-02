@@ -74,14 +74,46 @@ from design to code."
 - Deterministic naming: Figma `Button` ↔ code `Button`.
 - Chromatic: **full snapshots, TurboSnap OFF** (token changes are global).
 
+## ⚠️ The throughline plugin is SEPARATE from this repo
+
+Pulling this repo does **not** install the throughline plugin — they're two
+different things:
+
+- **This repo** = design-system _output_ (tokens, components, manifest, code).
+  Travels via `git pull`.
+- **throughline plugin** = a Claude Code _extension_ (the `/throughline:*`
+  commands, the skills, AND the bundled figma-console MCP config that connects
+  Claude to Figma). Lives in its OWN repo: `github.com/jrpease/throughline`.
+  Installed into Claude Code per-device.
+
+On the original machine the plugin marketplace is a **local directory**
+(`/Users/jordanpease/Dev/throughline`) — that path won't exist elsewhere, which
+is why the commands are missing after a fresh pull.
+
+**Do you even need it?**
+- Code-only work (edit components, `pnpm typecheck`, `build-storybook`, run app)
+  → no plugin required; it's plain pnpm/Node.
+- Design-system workflow (`/throughline:*` commands/skills + Figma connection)
+  → install the plugin.
+
+**Install on the other device (from GitHub, not the local path):**
+```
+claude plugin marketplace add jrpease/throughline
+claude plugin install throughline@throughline-marketplace
+```
+Then reload Claude Code and set `FIGMA_ACCESS_TOKEN`. The figma-console MCP
+server downloads via `npx` from the bundled config. (This machine runs v0.2.0;
+the default branch may be newer — check out the `v0.2.0` tag if you need an
+exact match.)
+
 ## Environment setup needed on the other device
 
-1. **Figma desktop app** (NOT browser) installed, signed in, with the file open.
-2. **Desktop Bridge plugin** running in that file (the figma-console-mcp bridge).
-3. **`FIGMA_ACCESS_TOKEN`** env var set to your personal Figma token (starts
+1. **throughline plugin** installed in Claude Code (see section above) — this is
+   what restores the `/throughline:*` commands and the Figma MCP config.
+2. **Figma desktop app** (NOT browser) installed, signed in, with the file open.
+3. **Desktop Bridge plugin** running in that file (the figma-console-mcp bridge).
+4. **`FIGMA_ACCESS_TOKEN`** env var set to your personal Figma token (starts
    `figd_`). _Never paste it into chat_ — place it in the MCP env yourself.
-4. **throughline plugin v0.2.0** installed in Claude Code (bundles the
-   figma-console-mcp `.mcp.json`).
 5. **Node + pnpm**, then `pnpm install` at the repo root.
 6. CI already has the `CHROMATIC_PROJECT_TOKEN` GitHub secret (no action needed).
 
