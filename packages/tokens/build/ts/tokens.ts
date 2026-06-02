@@ -2,17 +2,17 @@
 // Resolved token values. `tokens` is the default (dark) theme; `lightTokens` is light.
 export const tokens = {
   "color": {
-    "orange": {
-      "50": "#fff7ed",
-      "100": "#ffedd5",
-      "200": "#fed7aa",
-      "300": "#fdba74",
-      "400": "#fb923c",
-      "500": "#f97316",
-      "600": "#ea580c",
-      "700": "#c2410c",
-      "800": "#9a3412",
-      "900": "#7c2d12"
+    "green": {
+      "50": "#e9fbf0",
+      "100": "#c6f4d8",
+      "200": "#8deab1",
+      "300": "#54df8a",
+      "400": "#2acf6b",
+      "500": "#1db954",
+      "600": "#169c46",
+      "700": "#107d38",
+      "800": "#0b5e2a",
+      "900": "#073f1c"
     },
     "blue": {
       "50": "#eff6ff",
@@ -92,11 +92,11 @@ export const tokens = {
     "border": {
       "default": "#282828",
       "subtle": "#181818",
-      "focus": "#f97316"
+      "focus": "#1db954"
     },
     "brand": {
-      "primary": "#f97316",
-      "primaryHover": "#fb923c",
+      "primary": "#1db954",
+      "primaryHover": "#2acf6b",
       "onPrimary": "#0a0a0a"
     },
     "secondary": {
@@ -106,7 +106,7 @@ export const tokens = {
       "default": "#c158f3"
     },
     "success": {
-      "default": "#f97316"
+      "default": "#1db954"
     },
     "warning": {
       "default": "#fbbf24"
@@ -183,17 +183,17 @@ export const tokens = {
 
 export const lightTokens = {
   "color": {
-    "orange": {
-      "50": "#fff7ed",
-      "100": "#ffedd5",
-      "200": "#fed7aa",
-      "300": "#fdba74",
-      "400": "#fb923c",
-      "500": "#f97316",
-      "600": "#ea580c",
-      "700": "#c2410c",
-      "800": "#9a3412",
-      "900": "#7c2d12"
+    "green": {
+      "50": "#e9fbf0",
+      "100": "#c6f4d8",
+      "200": "#8deab1",
+      "300": "#54df8a",
+      "400": "#2acf6b",
+      "500": "#1db954",
+      "600": "#169c46",
+      "700": "#107d38",
+      "800": "#0b5e2a",
+      "900": "#073f1c"
     },
     "blue": {
       "50": "#eff6ff",
@@ -273,11 +273,11 @@ export const lightTokens = {
     "border": {
       "default": "#cfcfd3",
       "subtle": "#e8e8ea",
-      "focus": "#ea580c"
+      "focus": "#169c46"
     },
     "brand": {
-      "primary": "#ea580c",
-      "primaryHover": "#f97316",
+      "primary": "#169c46",
+      "primaryHover": "#1db954",
       "onPrimary": "#0a0a0a"
     },
     "secondary": {
@@ -287,7 +287,7 @@ export const lightTokens = {
       "default": "#8e1fc9"
     },
     "success": {
-      "default": "#ea580c"
+      "default": "#169c46"
     },
     "warning": {
       "default": "#d97706"
