@@ -2,9 +2,18 @@
   "name": "@ds/tokens",
   "version": "0.0.0",
   "private": true,
-  "description": "Design tokens synced from Figma (CSS / Tailwind / TypeScript).",
-  "files": ["dist"],
+  "description": "Design tokens synced from Figma (CSS / Tailwind / TypeScript) via Style Dictionary.",
+  "type": "module",
+  "files": ["build", "dtcg"],
+  "exports": {
+    "./css": "./build/css/tokens.css",
+    "./tailwind": "./build/tailwind/preset.cjs",
+    "./ts": "./build/ts/tokens.ts"
+  },
   "scripts": {
-    "build": "echo \"Token build is configured in the token-sync step\" && exit 0"
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "style-dictionary": "^4.3.0"
   }
 }

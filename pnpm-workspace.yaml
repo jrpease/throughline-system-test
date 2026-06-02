@@ -1,3 +1,7 @@
 packages:
   - "packages/*"
   - "apps/*"
+# Neither dependency needs to run install scripts for our build, so deny them.
+allowBuilds:
+  '@bundled-es-modules/glob': false
+  style-dictionary: false
