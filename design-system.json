@@ -9,7 +9,7 @@
   "workspace": {
     "name": "throughline-system-test",
     "localPath": ".",
-    "stage": "folder"
+    "stage": "github"
   },
   "figma": {
     "mechanism": "console-mcp",
@@ -37,10 +37,10 @@
   },
   "components": { "built": ["Button", "Spinner", "Badge", "Avatar", "Input", "Checkbox", "Switch", "Card"] },
   "repo": {
-    "stage": "none",
+    "stage": "github",
     "packageManager": "pnpm",
     "monorepo": "turborepo",
-    "remote": null
+    "remote": "https://github.com/jrpease/throughline-system-test"
   },
   "sync": {
     "platforms": [],
@@ -52,5 +52,5 @@
     "chromatic": false,
     "codeConnect": false
   },
-  "completedSkills": ["figma-environment-setup", "token-builder", "token-sheet-builder", "icon-system-builder", "component-builder"]
+  "completedSkills": ["figma-environment-setup", "token-builder", "token-sheet-builder", "icon-system-builder", "component-builder", "repository-builder"]
 }
