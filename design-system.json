@@ -35,7 +35,7 @@
     "packageInstalled": true,
     "subset": ["arrow-up","arrow-down","arrow-left","arrow-right","chevron-up","chevron-down","chevron-left","chevron-right","chevrons-left","chevrons-right","x","check","plus","minus","search","menu","more-horizontal","more-vertical","settings","sliders-horizontal","pencil","trash-2","copy","download","upload","share-2","filter","refresh-cw","external-link","info","circle-alert","triangle-alert","circle-check","circle-x","circle-help","loader-circle","bell","user","users","log-in","log-out","lock","eye","eye-off","house","calendar","clock","mail","star","bookmark","folder","link","play","pause","skip-back","skip-forward","shuffle","repeat","repeat-1","volume-1","volume-2","volume-x","heart","mic","music","list","headphones","disc"]
   },
-  "components": { "built": ["Button", "Spinner", "Badge", "Avatar", "Input", "Checkbox", "Switch", "Card"] },
+  "components": { "built": ["Button", "Spinner", "Badge", "Avatar", "Input", "Checkbox", "Switch", "Card", "Select", "Radio", "Textarea", "Tooltip"] },
   "repo": {
     "stage": "github",
     "packageManager": "pnpm",
