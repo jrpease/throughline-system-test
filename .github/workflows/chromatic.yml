@@ -27,3 +27,10 @@ jobs:
           workingDir: packages/ui
           buildScriptName: build-storybook
           onlyChanged: true
+          # Token/theme files are global — when they change, TurboSnap can't trace them
+          # to individual stories (they live in the linked @ds/tokens package), so treat
+          # them as "externals": any change re-snapshots ALL stories.
+          externals: |
+            packages/tokens/build/**
+            packages/ui/tailwind.config.cjs
+            packages/ui/src/styles/global.css
