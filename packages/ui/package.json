@@ -7,6 +7,7 @@
     "build": "echo \"UI build is configured in the Storybook/component step\" && exit 0"
   },
   "dependencies": {
-    "@ds/tokens": "workspace:*"
+    "@ds/tokens": "workspace:*",
+    "lucide-react": "^0.500.0"
   }
 }
