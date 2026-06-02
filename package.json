@@ -1,0 +1,14 @@
+{
+  "name": "throughline-system-test",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@11.5.1",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "turbo": "^2"
+  }
+}

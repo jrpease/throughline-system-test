@@ -1,0 +1,12 @@
+{
+  "name": "@ds/ui",
+  "version": "0.0.0",
+  "private": true,
+  "description": "React component library, built on @ds/tokens.",
+  "scripts": {
+    "build": "echo \"UI build is configured in the Storybook/component step\" && exit 0"
+  },
+  "dependencies": {
+    "@ds/tokens": "workspace:*"
+  }
+}
