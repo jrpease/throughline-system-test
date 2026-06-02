@@ -48,9 +48,9 @@
     "lastRun": "2026-06-02T13:37:15Z"
   },
   "storybook": {
-    "initialized": false,
-    "chromatic": false,
+    "initialized": true,
+    "chromatic": true,
     "codeConnect": false
   },
-  "completedSkills": ["figma-environment-setup", "token-builder", "token-sheet-builder", "icon-system-builder", "component-builder", "repository-builder", "token-sync-layer"]
+  "completedSkills": ["figma-environment-setup", "token-builder", "token-sheet-builder", "icon-system-builder", "component-builder", "repository-builder", "token-sync-layer", "storybook-chromatic-builder"]
 }
