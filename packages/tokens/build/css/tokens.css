@@ -5,16 +5,16 @@
  */
 
 :root {
-  --color-orange-50: #fff7ed;
-  --color-orange-100: #ffedd5;
-  --color-orange-200: #fed7aa;
-  --color-orange-300: #fdba74;
-  --color-orange-400: #fb923c;
-  --color-orange-500: #f97316;
-  --color-orange-600: #ea580c;
-  --color-orange-700: #c2410c;
-  --color-orange-800: #9a3412;
-  --color-orange-900: #7c2d12;
+  --color-green-50: #e9fbf0;
+  --color-green-100: #c6f4d8;
+  --color-green-200: #8deab1;
+  --color-green-300: #54df8a;
+  --color-green-400: #2acf6b;
+  --color-green-500: #1db954;
+  --color-green-600: #169c46;
+  --color-green-700: #107d38;
+  --color-green-800: #0b5e2a;
+  --color-green-900: #073f1c;
   --color-blue-50: #eff6ff;
   --color-blue-100: #dbeafe;
   --color-blue-200: #bfdbfe;
@@ -115,13 +115,13 @@
   --color-text-link: var(--color-blue-400);
   --color-border-default: var(--color-gray-700);
   --color-border-subtle: var(--color-gray-800);
-  --color-border-focus: var(--color-orange-500);
-  --color-brand-primary: var(--color-orange-500);
-  --color-brand-primary-hover: var(--color-orange-400);
+  --color-border-focus: var(--color-green-500);
+  --color-brand-primary: var(--color-green-500);
+  --color-brand-primary-hover: var(--color-green-400);
   --color-brand-on-primary: var(--color-gray-950);
   --color-secondary-default: var(--color-blue-400);
   --color-accent-default: var(--color-purple-400);
-  --color-success-default: var(--color-orange-500);
+  --color-success-default: var(--color-green-500);
   --color-warning-default: var(--color-amber-400);
   --color-danger-default: var(--color-red-500);
   --color-info-default: var(--color-blue-400);
@@ -149,13 +149,13 @@
   --color-text-link: var(--color-blue-600);
   --color-border-default: var(--color-gray-200);
   --color-border-subtle: var(--color-gray-100);
-  --color-border-focus: var(--color-orange-600);
-  --color-brand-primary: var(--color-orange-600);
-  --color-brand-primary-hover: var(--color-orange-500);
+  --color-border-focus: var(--color-green-600);
+  --color-brand-primary: var(--color-green-600);
+  --color-brand-primary-hover: var(--color-green-500);
   --color-brand-on-primary: var(--color-gray-950);
   --color-secondary-default: var(--color-blue-600);
   --color-accent-default: var(--color-purple-600);
-  --color-success-default: var(--color-orange-600);
+  --color-success-default: var(--color-green-600);
   --color-warning-default: var(--color-amber-600);
   --color-danger-default: var(--color-red-600);
   --color-info-default: var(--color-blue-600);
