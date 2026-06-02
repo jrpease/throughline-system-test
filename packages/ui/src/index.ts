@@ -11,4 +11,5 @@ export * from "./components/Card/Card";
 export * from "./components/Select/Select";
 export * from "./components/Textarea/Textarea";
 export * from "./components/Tooltip/Tooltip";
+export * from "./components/SelectMenu/SelectMenu";
 export { cn } from "./lib/cn";

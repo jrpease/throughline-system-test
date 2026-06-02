@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "user": {
     "codingLevel": "new"
   },
@@ -15,7 +15,11 @@
     "mechanism": "console-mcp",
     "fileKey": "OCiZiGpsJ4ncPD8r205BjC",
     "connected": true,
-    "lastVerified": "2026-06-02T11:56:00Z"
+    "lastVerified": "2026-06-02T15:21:00Z",
+    "coverPageBuilt": true,
+    "canPublish": null,
+    "libraryPublished": false,
+    "publishedAt": null
   },
   "tokens": {
     "intakeMode": "generative",
@@ -35,7 +39,14 @@
     "packageInstalled": true,
     "subset": ["arrow-up","arrow-down","arrow-left","arrow-right","chevron-up","chevron-down","chevron-left","chevron-right","chevrons-left","chevrons-right","x","check","plus","minus","search","menu","more-horizontal","more-vertical","settings","sliders-horizontal","pencil","trash-2","copy","download","upload","share-2","filter","refresh-cw","external-link","info","circle-alert","triangle-alert","circle-check","circle-x","circle-help","loader-circle","bell","user","users","log-in","log-out","lock","eye","eye-off","house","calendar","clock","mail","star","bookmark","folder","link","play","pause","skip-back","skip-forward","shuffle","repeat","repeat-1","volume-1","volume-2","volume-x","heart","mic","music","list","headphones","disc"]
   },
-  "components": { "built": ["Button", "Spinner", "Badge", "Avatar", "Input", "Checkbox", "Switch", "Card", "Select", "Radio", "Textarea", "Tooltip"] },
+  "components": {
+    "built": ["Button", "Spinner", "Badge", "Avatar", "Input", "Checkbox", "Switch", "Card", "Select", "Radio", "Textarea", "Tooltip", "Select Menu", "Select Menu Item"],
+    "meta": {
+      "Select Menu": { "status": "draft", "updatedAt": "2026-06-02T15:33:00Z" },
+      "Select Menu Item": { "status": "draft", "updatedAt": "2026-06-02T15:33:00Z" }
+    },
+    "instanceSwapUpgradePending": []
+  },
   "repo": {
     "stage": "github",
     "packageManager": "pnpm",
