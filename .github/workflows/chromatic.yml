@@ -26,4 +26,9 @@ jobs:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
           workingDir: packages/ui
           buildScriptName: build-storybook
-          onlyChanged: true
+          # TurboSnap is intentionally OFF. This is a token-driven design system:
+          # token changes are global but live in the linked @ds/tokens package, which
+          # TurboSnap can't trace to stories (it skipped them, capturing 0 snapshots).
+          # A full snapshot every run (42 stories) is cheap and never misses a token change.
+          onlyChanged: false
+          forceRebuild: true
