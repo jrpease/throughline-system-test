@@ -50,17 +50,17 @@
         "$type": "color"
       },
       "focus": {
-        "$value": "{color.green.600}",
+        "$value": "{color.orange.600}",
         "$type": "color"
       }
     },
     "brand": {
       "primary": {
-        "$value": "{color.green.600}",
+        "$value": "{color.orange.600}",
         "$type": "color"
       },
       "primaryHover": {
-        "$value": "{color.green.500}",
+        "$value": "{color.orange.500}",
         "$type": "color"
       },
       "onPrimary": {
@@ -82,7 +82,7 @@
     },
     "success": {
       "default": {
-        "$value": "{color.green.600}",
+        "$value": "{color.orange.600}",
         "$type": "color"
       }
     },

@@ -25,7 +25,7 @@
     "stylesBuilt": true,
     "collections": ["Primitives", "Semantic"],
     "styleGroups": ["Text", "Elevation"],
-    "lastSync": "2026-06-02T13:37:15Z"
+    "lastSync": "2026-06-02T14:32:16Z"
   },
   "sheets": { "built": true },
   "icons": {
@@ -45,7 +45,7 @@
   "sync": {
     "platforms": ["shadcn"],
     "customAdapters": [],
-    "lastRun": "2026-06-02T13:37:15Z"
+    "lastRun": "2026-06-02T14:32:16Z"
   },
   "storybook": {
     "initialized": true,
