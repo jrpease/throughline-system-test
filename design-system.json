@@ -51,7 +51,7 @@
     "stage": "github",
     "packageManager": "pnpm",
     "monorepo": "turborepo",
-    "remote": "https://github.com/jrpease/throughline-system-test"
+    "remote": "https://github.com/jrpease/throughline-sample"
   },
   "sync": {
     "platforms": ["shadcn"],
