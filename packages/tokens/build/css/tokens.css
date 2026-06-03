@@ -104,7 +104,7 @@
   --font-family-body: Inter;
   --font-line-height-tight: 1.2;
   --font-line-height-normal: 1.5;
-  --color-bg-default: var(--color-gray-900);
+  --color-bg-canvas: var(--color-gray-900);
   --color-bg-subtle: var(--color-gray-800);
   --color-bg-muted: var(--color-gray-700);
   --color-bg-inverse: var(--color-gray-0);
@@ -131,6 +131,7 @@
   --space-gap-sm: var(--space-2);
   --space-gap-md: var(--space-4);
   --space-gap-lg: var(--space-6);
+  --space-gap-xl: var(--space-8);
 }
 
 /**
@@ -138,7 +139,7 @@
  */
 
 .light {
-  --color-bg-default: var(--color-gray-0);
+  --color-bg-canvas: var(--color-gray-0);
   --color-bg-subtle: var(--color-gray-50);
   --color-bg-muted: var(--color-gray-100);
   --color-bg-inverse: var(--color-gray-900);
@@ -165,12 +166,13 @@
   --space-gap-sm: var(--space-2);
   --space-gap-md: var(--space-4);
   --space-gap-lg: var(--space-6);
+  --space-gap-xl: var(--space-8);
 }
 
 /* shadcn/ui compatible aliases — mapped to design-system semantic tokens. */
 /* They reference the semantic vars above, so they re-theme automatically under .light. */
 :root {
-  --background: var(--color-bg-default);
+  --background: var(--color-bg-canvas);
   --foreground: var(--color-text-primary);
   --card: var(--color-bg-subtle);
   --card-foreground: var(--color-text-primary);

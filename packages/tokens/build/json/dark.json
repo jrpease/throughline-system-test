@@ -75,7 +75,7 @@
       "950": "#0a0a0a"
     },
     "bg": {
-      "default": "#121212",
+      "canvas": "#121212",
       "subtle": "#181818",
       "muted": "#282828",
       "inverse": "#ffffff"
@@ -138,7 +138,8 @@
     "gap": {
       "sm": "8px",
       "md": "16px",
-      "lg": "24px"
+      "lg": "24px",
+      "xl": "32px"
     }
   },
   "radius": {
