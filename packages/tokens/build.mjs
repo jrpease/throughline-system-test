@@ -61,7 +61,7 @@ const shadcn = `
 /* shadcn/ui compatible aliases — mapped to design-system semantic tokens. */
 /* They reference the semantic vars above, so they re-theme automatically under .light. */
 :root {
-  --background: var(--color-bg-default);
+  --background: var(--color-bg-canvas);
   --foreground: var(--color-text-primary);
   --card: var(--color-bg-subtle);
   --card-foreground: var(--color-text-primary);

@@ -17,9 +17,9 @@
     "connected": true,
     "lastVerified": "2026-06-02T15:21:00Z",
     "coverPageBuilt": true,
-    "canPublish": null,
-    "libraryPublished": false,
-    "publishedAt": null
+    "canPublish": true,
+    "libraryPublished": true,
+    "publishedAt": "2026-06-03T00:00:00Z"
   },
   "tokens": {
     "intakeMode": "generative",
@@ -29,7 +29,7 @@
     "stylesBuilt": true,
     "collections": ["Primitives", "Semantic"],
     "styleGroups": ["Text", "Elevation"],
-    "lastSync": "2026-06-02T14:54:57Z"
+    "lastSync": "2026-06-03T20:40:00Z"
   },
   "sheets": { "built": true },
   "icons": {
@@ -42,8 +42,8 @@
   "components": {
     "built": ["Button", "Spinner", "Badge", "Avatar", "Input", "Checkbox", "Switch", "Card", "Select", "Radio", "Textarea", "Tooltip", "Select Menu", "Select Menu Item"],
     "meta": {
-      "Select Menu": { "status": "draft", "updatedAt": "2026-06-02T15:33:00Z" },
-      "Select Menu Item": { "status": "draft", "updatedAt": "2026-06-02T15:33:00Z" }
+      "Select Menu": { "status": "final", "updatedAt": "2026-06-03T00:00:00Z" },
+      "Select Menu Item": { "status": "final", "updatedAt": "2026-06-03T00:00:00Z" }
     },
     "instanceSwapUpgradePending": []
   },
@@ -51,12 +51,12 @@
     "stage": "github",
     "packageManager": "pnpm",
     "monorepo": "turborepo",
-    "remote": "https://github.com/jrpease/throughline-system-test"
+    "remote": "https://github.com/jrpease/throughline-sample"
   },
   "sync": {
     "platforms": ["shadcn"],
     "customAdapters": [],
-    "lastRun": "2026-06-02T14:54:57Z"
+    "lastRun": "2026-06-03T20:40:00Z"
   },
   "storybook": {
     "initialized": true,

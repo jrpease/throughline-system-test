@@ -77,7 +77,7 @@ export const tokens = {
       "950": "#0a0a0a"
     },
     "bg": {
-      "default": "#121212",
+      "canvas": "#121212",
       "subtle": "#181818",
       "muted": "#282828",
       "inverse": "#ffffff"
@@ -140,7 +140,8 @@ export const tokens = {
     "gap": {
       "sm": "8px",
       "md": "16px",
-      "lg": "24px"
+      "lg": "24px",
+      "xl": "32px"
     }
   },
   "radius": {
@@ -258,7 +259,7 @@ export const lightTokens = {
       "950": "#0a0a0a"
     },
     "bg": {
-      "default": "#ffffff",
+      "canvas": "#ffffff",
       "subtle": "#f7f7f8",
       "muted": "#e8e8ea",
       "inverse": "#121212"
@@ -321,7 +322,8 @@ export const lightTokens = {
     "gap": {
       "sm": "8px",
       "md": "16px",
-      "lg": "24px"
+      "lg": "24px",
+      "xl": "32px"
     }
   },
   "radius": {

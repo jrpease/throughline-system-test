@@ -3,7 +3,7 @@
  */
 
 .light {
-  --color-bg-default: var(--color-gray-0);
+  --color-bg-canvas: var(--color-gray-0);
   --color-bg-subtle: var(--color-gray-50);
   --color-bg-muted: var(--color-gray-100);
   --color-bg-inverse: var(--color-gray-900);
@@ -30,4 +30,5 @@
   --space-gap-sm: var(--space-2);
   --space-gap-md: var(--space-4);
   --space-gap-lg: var(--space-6);
+  --space-gap-xl: var(--space-8);
 }

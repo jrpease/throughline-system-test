@@ -1,7 +1,7 @@
 {
   "color": {
     "bg": {
-      "default": {
+      "canvas": {
         "$value": "{color.gray.0}",
         "$type": "color"
       },
@@ -131,6 +131,10 @@
       },
       "lg": {
         "$value": "{space.6}",
+        "$type": "dimension"
+      },
+      "xl": {
+        "$value": "{space.8}",
         "$type": "dimension"
       }
     }
